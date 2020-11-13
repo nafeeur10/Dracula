@@ -6,6 +6,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Q1
+Route::get('/second-buyer-eloquent', 'EcommerceController@secondBuyerEloquent');
+
 // Q2
 Route::get('/record-transfer', 'RecordTransferController@index');
 
