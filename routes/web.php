@@ -6,6 +6,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Q2
+Route::get('/record-transfer', 'RecordTransferController@index');
+
 // Q3
 Route::get('/define-callback-js', 'CallbackController@index');
 
