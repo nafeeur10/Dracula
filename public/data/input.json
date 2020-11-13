@@ -1,0 +1,16 @@
+{
+    "user": [
+        {
+            "email" : "trump@gmail.com",
+            "age" : 19
+        },
+        {
+            "email" : "byeden@gmail.com",
+            "age" : 21
+        },
+        {
+            "email" : "obama@gmail.com",
+            "age" : 16
+        }
+    ]
+}
