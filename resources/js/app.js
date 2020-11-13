@@ -12,6 +12,7 @@ Vue.component('for-each-js', require('./components/ForEachJs.vue').default);
 Vue.component('filter-js', require('./components/FilterJs.vue').default);
 Vue.component('map-js', require('./components/MapJs.vue').default);
 Vue.component('reduce-js', require('./components/ReduceJs.vue').default);
+Vue.component('animation-js', require('./components/animation/AnimationJs.vue').default);
 
 const app = new Vue({
     el: '#app',

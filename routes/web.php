@@ -18,4 +18,4 @@ Route::get('/reduce-js', 'ArrayController@reduce');
 
 // Q5
 
-Route::get('animation');
+Route::get('animation', 'AnimationController@index');
